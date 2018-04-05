@@ -17,9 +17,11 @@ set fenc=utf-8
 set termencoding=utf-8
 " disable vi compatibility (emulation of old bugs)
 set nocompatible
+" cursorline
 set cursorline
 " disable swap file
 set noswapfile
+" enable markdown syntax support
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 
 " ===== Indent =====
@@ -42,12 +44,11 @@ set colorcolumn=80
 set hlsearch
 " case insensitve search
 set ignorecase
+" smart search
 set smartcase
 " start searching while typing
 set incsearch
-" highlight matching braces
-" set showmatch
-" don't move onto next match when typying *
+" don't move onto next match when typing *
 nnoremap * *``
 " adjust search highlight
 hi Search ctermbg=LightYellow
