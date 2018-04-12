@@ -8,10 +8,10 @@ export PADBC="/dbc/pa-dbc1118/kangd"
 export NVMXNET3="/dbc/pek2-dbc403/kangd/esx-network-drivers-nvmxnet3/drivers/nvmxnet3"
 export VIRTIONET="dbc/pek2-dbc403/kangd/esx-network-drivers-virtionet/drivers/virtionet"
 export SFVMK="/dbc/pek2-dbc403/kangd/esx-network-drivers-sfvmk/drivers/sfvmk"
-export SFVMK-VMCOREMAIN='cd /dbc/pa-dbc1118/kangd/p4-git-vmcore-main/git/vmkdrivers/native/BSD/Network/sfvmk'
+export SFVMK_VMCOREMAIN="cd /dbc/pa-dbc1118/kangd/p4-git-vmcore-main/git/vmkdrivers/native/BSD/Network/sfvmk"
 alias cdbjdbc="cd $BJDBC"
 alias cdpadbc="cd $PADBC"
-alias cdsfvmkcoremain="cd ${SFVMK-VMCOREMAIN}"
+alias cdsfvmkcoremain="cd ${SFVMK_VMCOREMAIN}"
 
 # DDK
 export ESXIVER=6.6.3-6399067
