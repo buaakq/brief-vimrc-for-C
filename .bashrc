@@ -27,8 +27,10 @@ alias cdddkvirtionet="cd ${DDKCODE}/virtionet"
 # vim
 alias vim="vim -i NONE --noplugin"
 
-# Bash display
-export PS1="[\[\e[32m\]#\##\[\e[31m\]\u@\[\e[36m\]\h:\w]\$\[\e[m\]"
+# 006 perf VM
+export ip006perf="10.111.216.43"
+# 008 perf VM
+export ip008perf="10.111.216.42"
 
 # 002 machine
 export ip002="10.111.13.84"
@@ -66,3 +68,6 @@ alias ssh2ippc="ssh kangd@$ippc"
 # zongyun's DDK machine
 export ipddk="10.117.4.140"
 alias ssh2ddk="ssh kangd@$ipddk"
+
+# Bash display
+export PS1="[\[\e[32m\]#\##\[\e[31m\]\u@\[\e[36m\]\h:\w]\$\[\e[m\]"
