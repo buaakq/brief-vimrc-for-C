@@ -67,7 +67,7 @@ alias ssh2ippc="ssh kangd@$ippc"
 
 # zongyun's DDK machine
 export ipddk="10.117.4.140"
-alias ssh2ddk="ssh kangd@$ipddk"
+alias ssh2ddk="ssh root@$ipddk"
 
 # Bash display
 export PS1="[\[\e[32m\]#\##\[\e[31m\]\u@\[\e[36m\]\h:\w]\$\[\e[m\]"
