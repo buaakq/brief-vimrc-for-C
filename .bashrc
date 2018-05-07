@@ -1,4 +1,5 @@
 # Commands
+alias ls="ls --color"
 alias l="ls -lF --color"
 alias ll="ls -alF --color"
 
@@ -28,7 +29,7 @@ alias cdddkvirtionet="cd ${DDKCODE}/virtionet"
 alias vim="vim -i NONE --noplugin"
 
 # 006 perf VM
-export ip006perf="10.111.216.43"
+export ip006perf="10.111.217.26"
 # 008 perf VM
 export ip008perf="10.111.216.42"
 
