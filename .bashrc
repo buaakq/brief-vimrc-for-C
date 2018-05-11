@@ -1,7 +1,7 @@
 # Commands
-alias ls="ls --color"
-alias l="ls -lF --color"
-alias ll="ls -alF --color"
+alias ls="ls -color"
+alias l="ls -lF"
+alias ll="ls -alF"
 
 # DBC
 export BJDBC="/dbc/pek2-dbc403/kangd"
