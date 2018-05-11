@@ -30,8 +30,24 @@ alias vim="vim -i NONE --noplugin"
 
 # 006 perf VM
 export ip006perf="10.111.217.26"
+export ip006perf1="10.111.217.26"
+export ip006perf2="10.111.217.26"
+export ip006perf3="10.111.217.26"
+export ip006perf4="10.111.217.26"
+export ip006perf5="10.111.217.26"
+export ip006perf6="10.111.217.26"
+export ip006perf7="10.111.217.26"
+export ip006perf8="10.111.217.26"
 # 008 perf VM
 export ip008perf="10.111.216.42"
+export ip008perf1="10.111.216.77"
+export ip008perf2="10.111.216.75"
+export ip008perf3="10.111.216.66"
+export ip008perf4="10.111.216.64"
+export ip008perf5="10.111.216.69"
+export ip008perf6="10.111.216.59"
+export ip008perf7="10.111.216.54"
+export ip008perf8="10.111.216.53"
 
 # 002 machine
 export ip002="10.111.13.84"
