@@ -23,6 +23,9 @@ set cursorline
 set noswapfile
 " enable markdown syntax support
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+" auto remove trailing spaces
+autocmd BufWritePre * %s/\s\+$//e
+set statusline+=%F
 
 " ===== Indent =====
 

@@ -3,8 +3,8 @@ export LC_ALL=en_US.UTF-8
 
 # Commands
 alias ls="ls --color"
-alias l="ls -lF --color"
-alias ll="ls -alF --color"
+alias l="ls -hlF"
+alias ll="ls -halF"
 
 # DBC
 export BJDBC="/dbc/pek2-dbc403/kangd"
