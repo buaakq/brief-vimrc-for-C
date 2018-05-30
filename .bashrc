@@ -1,7 +1,10 @@
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
 # Commands
-alias ls="ls -color"
-alias l="ls -lF"
-alias ll="ls -alF"
+alias ls="ls --color"
+alias l="ls -hlF"
+alias ll="ls -halF"
 
 # DBC
 export BJDBC="/dbc/pek2-dbc403/kangd"
@@ -30,14 +33,14 @@ alias vim="vim -i NONE --noplugin"
 
 # 006 perf VM
 export ip006perf="10.111.217.26"
-export ip006perf1="10.111.217.26"
-export ip006perf2="10.111.217.26"
-export ip006perf3="10.111.217.26"
+export ip006perf1="10.111.216.48"
+export ip006perf2="10.111.217.47"
+export ip006perf3="10.111.217.43"
 export ip006perf4="10.111.217.26"
-export ip006perf5="10.111.217.26"
-export ip006perf6="10.111.217.26"
-export ip006perf7="10.111.217.26"
-export ip006perf8="10.111.217.26"
+export ip006perf5="10.111.217.39"
+export ip006perf6="10.111.217.34"
+export ip006perf7="10.111.217.32"
+export ip006perf8="10.111.217.30"
 # 008 perf VM
 export ip008perf="10.111.216.42"
 export ip008perf1="10.111.216.77"
