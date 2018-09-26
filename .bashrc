@@ -6,7 +6,11 @@ export hotcloud18="~/p4-workspace/Poise/HotCloud-2018/p4"
 alias go2hotcloud18="cd $hotcloud18"
 
 # commond commands
-alias ls="ls --color"
+if [[ `uname` == 'Linux' ]]; then
+   alias ls="ls --color"
+else
+   alias ls="ls -color"
+fi
 alias l="ls -hlF"
 alias ll="ls -halF"
 
