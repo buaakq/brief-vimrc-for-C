@@ -23,3 +23,14 @@ export PS1="[\[\e[32m\]#\##\[\e[31m\]\u@\[\e[36m\]\h:\w]\$\[\e[m\]"
 # LANG config
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+
+# Tofino switch/server addresses
+for i in `seq 0 9`; do
+   export s${i}name="ds0${i}.cs.rice.edu"
+   export s${i}name="ds0${i}.cs.rice.edu"
+done
+export s10name="ds10.cs.rice.edu"
+
+export tofinoip="128.42.61.5"
+export s1ip="128.42.61.6"
+export s2ip="128.42.61.7"

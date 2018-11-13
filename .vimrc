@@ -38,7 +38,6 @@ set tabstop=3        " tab width is 4 spaces
 set shiftwidth=3     " indent also with 4 spaces
 set expandtab        " expand tabs to spaces
 " wrap lines at 80 chars.
-set textwidth=80
 set colorcolumn=80
 
 " ===== Searching =====
