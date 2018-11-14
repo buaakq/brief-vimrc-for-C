@@ -25,12 +25,16 @@ export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 # Tofino switch/server addresses
-for i in `seq 0 9`; do
-   export s${i}name="ds0${i}.cs.rice.edu"
-   export s${i}name="ds0${i}.cs.rice.edu"
+for i in `seq 1 9`; do
+   export NAME_SERVER_0${i}="ds0${i}.cs.rice.edu"
 done
-export s10name="ds10.cs.rice.edu"
 
-export tofinoip="128.42.61.5"
-export s1ip="128.42.61.6"
-export s2ip="128.42.61.7"
+export NAME_SERVER_10="ds10.cs.rice.edu"
+
+export IP_SERVER_01="128.42.61.6"
+export IP_SERVER_02="128.42.61.7"
+export IP_SERVER_10="128.42.61.15"
+
+export IP_SWITCH="128.42.61.5"
+
+export IP_MAC_OFFICE="10.211.179.42"
