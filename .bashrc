@@ -38,3 +38,10 @@ export IP_SERVER_10="128.42.61.15"
 export IP_SWITCH="128.42.61.5"
 
 export IP_MAC_OFFICE="10.211.179.42"
+
+alias go2server01="ssh -Y qiaokang@$IP_SERVER_01"
+alias go2server02="ssh -Y qiaokang@$IP_SERVER_02"
+alias go2server10="ssh -Y qiaokang@$IP_SERVER_10"
+
+# MACOS X11 forwarding
+export DISPLAY=:0
