@@ -43,5 +43,10 @@ alias go2server01="ssh -Y qiaokang@$IP_SERVER_01"
 alias go2server02="ssh -Y qiaokang@$IP_SERVER_02"
 alias go2server10="ssh -Y qiaokang@$IP_SERVER_10"
 
+export IP_SDE1_S10="192.168.122.244"
+export IP_SDE2_S10="192.168.122.132"
+alias go2sde1="ssh qiaokang@$IP_SDE1_S10"
+alias go2sde2="ssh qiaokang@$IP_SDE2_S10"
+
 # MACOS X11 forwarding
 export DISPLAY=:0
