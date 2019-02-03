@@ -27,21 +27,23 @@ export LC_ALL=en_US.UTF-8
 # Tofino switch/server addresses
 for i in `seq 1 9`; do
    export NAME_SERVER_0${i}="ds0${i}.cs.rice.edu"
+   last=$(($i+5))
+   export IP_SERVER_0${i}="128.42.61.$last"
 done
 
+export IP_SERVER_10="128.42.61.15"
 export NAME_SERVER_10="ds10.cs.rice.edu"
 
-export IP_SERVER_01="128.42.61.6"
-export IP_SERVER_02="128.42.61.7"
-export IP_SERVER_10="128.42.61.15"
-
 export IP_SWITCH="128.42.61.5"
-
 export IP_MAC_OFFICE="10.211.179.42"
 
 alias go2server01="ssh -Y qiaokang@$IP_SERVER_01"
 alias go2server02="ssh -Y qiaokang@$IP_SERVER_02"
 alias go2server10="ssh -Y qiaokang@$IP_SERVER_10"
+
+# Private IP addresses for SDE VMs in ds01
+export IP_SDE_86="192.168.122.246"
+alias go2sde86="ssh qiaokang@$IP_SDE_86"
 
 # MACOS X11 forwarding
 export DISPLAY=:0
