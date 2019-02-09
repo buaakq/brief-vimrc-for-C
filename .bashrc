@@ -9,6 +9,8 @@ alias go2hotcloud18="cd $hotcloud18"
 if [[ `uname` == 'Linux' ]]; then
    alias ls="ls --color"
 else
+   # MACOS X11 forwarding
+   export DISPLAY=:0
    alias ls="ls -color"
 fi
 alias l="ls -hlF"
@@ -44,6 +46,3 @@ alias go2server10="ssh -Y qiaokang@$IP_SERVER_10"
 # Private IP addresses for SDE VMs in ds01
 export IP_SDE_86="192.168.122.246"
 alias go2sde86="ssh qiaokang@$IP_SDE_86"
-
-# MACOS X11 forwarding
-export DISPLAY=:0
