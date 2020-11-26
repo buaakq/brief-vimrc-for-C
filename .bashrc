@@ -46,3 +46,11 @@ alias go2server10="ssh -Y qiaokang@$IP_SERVER_10"
 # Private IP addresses for SDE VMs in ds01
 export IP_SDE_86="192.168.122.246"
 alias go2sde86="ssh qiaokang@$IP_SDE_86"
+
+cd ~
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
+
+alias go2host="ssh qiaokang@192.168.1.73"
+alias go2vm="ssh qiaokang@192.168.1.74"
+alias go2vm2="ssh qiaokang@192.168.1.76"
